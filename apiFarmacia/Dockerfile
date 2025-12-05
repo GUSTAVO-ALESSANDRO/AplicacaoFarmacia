@@ -6,14 +6,14 @@ FROM maven:3.9.6-eclipse-temurin-17 AS build
 # Define diretório de trabalho dentro do container
 WORKDIR /app
 
-# Copia o arquivo pom.xml e baixa dependências em cache
-COPY pom.xml .
+# Copia o arquivo pom.xml da pasta correta
+COPY apiFarmacia/pom.xml .
 
-# Garante que dependências sejam baixadas antes do código (cache eficiente)
+# Baixa dependências antes do código (cache eficiente)
 RUN mvn dependency:go-offline -B
 
-# Agora copia todo o código fonte
-COPY src ./src
+# Copia todo o código fonte
+COPY apiFarmacia/src ./src
 
 # Compila e empacota a aplicação (gera o .jar)
 RUN mvn clean package -DskipTests
@@ -31,7 +31,7 @@ COPY --from=build /app/target/*.jar app.jar
 # Exposição da porta padrão Spring Boot
 EXPOSE 8080
 
-# Variáveis de ambiente para evitar problemas com timezone
+# Variáveis de ambiente
 ENV TZ="America/Sao_Paulo"
 
 # Comando que executa a aplicação
