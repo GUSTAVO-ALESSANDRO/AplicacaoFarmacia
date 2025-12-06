@@ -119,3 +119,4 @@ O **Back-End** é desenvolvido em **Spring Boot** e contém toda a lógica de ne
 -	Gustavo Alessandro de Souza Sabino
 -	Sinval Silva Júnior
 
+### Link para o frontend na vercel: https://aplicacao-farmacia.vercel.app/
