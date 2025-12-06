@@ -1,4 +1,3 @@
-# Tech Solutions
 ## Sistema de Gerenciamento e Vendas para Farmácias 💊
 
 ### 1. CONTEXTO DO PROBLEMA E SOLUÇÃO
@@ -116,7 +115,7 @@ O **Back-End** é desenvolvido em **Spring Boot** e contém toda a lógica de ne
     Testes unitários e de integração do projeto, garantindo que a aplicação funcione corretamente.
     
 ### 👥 Membros da Equipe
--	Matheus Gomes Monteiro, 202410369
--	Gustavo Alessandro De Souza Sabino, 202411214
--	Gustavo Batista Bissoli, 202220170
+-	Aline dos Reis Furtado
+-	Gustavo Alessandro de Souza Sabino
+-	Sinval Silva Júnior
 
