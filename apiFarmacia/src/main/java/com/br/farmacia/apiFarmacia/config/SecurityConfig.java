@@ -78,7 +78,8 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(Arrays.asList(
             "http://localhost:3000", 
             "http://localhost:5173",
-            "http://localhost:5174"
+            "http://localhost:5174",
+            "https://aplicacao-farmacia.vercel.app"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
