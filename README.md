@@ -11,7 +11,7 @@ O **Sistema Web Farmácia Digital** foi desenvolvido para informatizar os proces
 - Autenticação de usuários (clientes, funcionários e administradores).
 
 ### 2. INSTRUÇÕES PARA USO (Usuários Finais)
-Abra o link disponibilizado pela Tech Solutions em seu navegador de preferência e faça o login de acordo com o perfil utilizado (Funcionário ou Cliente).
+Abra o link disponibilizado em seu navegador de preferência e faça o login de acordo com o perfil utilizado (Funcionário ou Cliente).
 
 ### 3. INSTRUÇÕES PARA DEVS
 
